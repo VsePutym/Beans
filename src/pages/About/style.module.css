@@ -1,0 +1,47 @@
+.container{
+	background-color: #ffd4d4;
+	padding: 30px;
+	border-radius: 20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.item{
+	margin-bottom: 30px;
+}
+.title{
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+.text{
+	font-weight: 600;
+}
+.wrapperImgs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.imeg{
+	width: 200px;
+}
+.textImg{
+	width: 300px;
+	color: white;
+	font-weight: 600;
+}
+
+@media (max-width: 800px) {
+	.container{
+		margin: 30px;
+	}
+	.text, .textImg{
+		font-size: 30px;
+		font-weight: 400;
+	}
+	.title{
+		font-size: 30px;
+	}
+	.textImg{
+		width: 400px;
+	}
+}
